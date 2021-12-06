@@ -28,6 +28,8 @@ int main(){
 			  which returns bool and can be used to provide custom sorting behaviour like making decending
 			  sorting or in case of vector of pairs, ascending according to first element and decsending
 			  according to 2nd if 1st element is same.
+
+			  syntax changes to: sort(a.begin(), a.end(), cmp) where cmp is a comparator func.
 	*/
 
 	// Syntax
